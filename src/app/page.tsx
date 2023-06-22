@@ -287,7 +287,7 @@ export default function Home() {
                 <div>
                   <div className="nft__container">
                     <div className="placeholder">
-                      <img src={cw721Info.image} />
+                      <Image src={cw721Info.image} alt="Collection logo" width={100} height={100}></Image>
                     </div>
                     <div className="">
                       <div className="nft__container-title">
